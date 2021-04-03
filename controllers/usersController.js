@@ -7,7 +7,7 @@ const usuariosGet = (req = request, res = response) => {
   const query = req.query;
   return res.json({
     msg: 'get API - usersController',
-    query
+    query 
   }) 
 }
 const usuariosPost = (req, res) => {
